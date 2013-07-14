@@ -1,0 +1,10 @@
+<ul data-bind="foreach: sushi">
+	<li>
+		<div>
+			<label for="sushiName">Name:</label>
+			<input id="sushiName" type="text" data-bind="value: name">
+			<label for="rating">Rating:</label>
+			<input class="stars" id="rating" type="text" data-bind="value: rating">
+		</div>
+	</li>
+</ul>

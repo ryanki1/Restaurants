@@ -1,0 +1,13 @@
+{% extends 'TerrificComposition::base.html.twig' %}
+
+{% block title %}Find a nearby Restaurant{% endblock %}
+
+{% block body %}
+<div class="page">
+	<div id="applicationHost"></div>
+	<div id="qunit"></div>
+	<div id="qunit-fixture">
+	</div>	
+    {{ tc.module('Respaurant') }} <!-- this takes the template with the same name (restaurant.html.twig) implicitly -->
+</div>
+{% endblock %}
